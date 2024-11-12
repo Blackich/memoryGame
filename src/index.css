@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Formular-Bold';
+  src: url(./fonts/Formular-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Formular-Medium';
+  src: url(./fonts/Formular-Medium.woff2);
+}
+
+:root {
+  --color-primary: #0083fc;
+  --color-accent: #ff5533;
+  --color-grey: #e5e5e5;
+}
+
+body {
+  font-family: 'Formular-Medium';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.moves-made,
+.attempts-left {
+  width: 193px;
+  height: 222px;
+}
+
+.moves-made__title,
+.attempts-left__title,
+.moves-made__num,
+.attempts-left__num {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.moves-made__num,
+.attempts-left__num {
+  color: var(--color-accent)
+}
+
+.cards-grid {
+  order: 2;
+}
+
+.moves-made {
+ order: 1;
+}
+
+.attempts-left {
+  order: 3;
+}

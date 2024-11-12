@@ -1,0 +1,13 @@
+.header {
+  margin-top: 164px;
+}
+
+.header__title {
+  font-family: 'Formular-Bold';
+  text-align: center;
+  height: 130px;
+  font-size: 50px;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
